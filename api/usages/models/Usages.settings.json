@@ -1,0 +1,38 @@
+{
+  "connection": "default",
+  "collectionName": "usages",
+  "info": {
+    "name": "usages",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "userId": {
+      "required": true,
+      "default": "",
+      "type": "string"
+    },
+    "bikeId": {
+      "required": true,
+      "default": "",
+      "type": "string"
+    },
+    "startZoneId": {
+      "required": true,
+      "type": "string"
+    },
+    "endZoneId": {
+      "type": "string"
+    },
+    "isOpen": {
+      "default": true,
+      "required": true,
+      "type": "boolean"
+    }
+  }
+}
